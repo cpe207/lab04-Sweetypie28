@@ -3,7 +3,7 @@ function arrayStringify(c:any):string | null {
     return null;
   }else{
     let result:string = "";
-  for (let i=0; i< c.length; i++ ){
+  for (let i = 0; i < c.length; i++ ){
     result += c[i].tostring();
   }
   return result;
@@ -19,3 +19,6 @@ console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
+
+//รหัสนศ. : 660610746
+//ชื่อ สกุล : ชลกร สุทธเวช

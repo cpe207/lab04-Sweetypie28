@@ -25,3 +25,6 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+
+//รหัสนศ. : 660610746
+//ชื่อ สกุล : ชลกร สุทธเวช
