@@ -5,14 +5,14 @@ function arrayStringify(a) {
     else {
         var result = "";
         for (var i = 0; i < a.length; i++) {
-            result += a[i].tostring();
+            result += a[i].toString();
         }
         return result;
     }
 }
-var c1, _a = [1, 2, 3];
-var c2, _b = [10, 9, 8, 7, 6, 5];
-var c3, _c = [];
+var c1 = [1, 2, 3];
+var c2 = [10, 9, 8, 7, 6, 5];
+var c3 = [];
 console.log(arrayStringify(c1));
 console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
