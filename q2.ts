@@ -1,4 +1,4 @@
-function arrayStringify(c:number):string | null {
+function arrayStringify(c:any):string | null {
   if(c === null){
     return null;
   }else{
