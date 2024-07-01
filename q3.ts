@@ -1,10 +1,24 @@
-function primeNumber(a) {
-  /* Your code here */
+function primeNumber(d: number) {
+  if (d < 2) {
+    return "NO";
+  }
+  if (d === 2) {
+    return "YES";
+  }
+  if (d > 2) {
+    for (let i = 2; i < d; i++) {
+      if (d % i === 0) {
+        return "NO";
+        break;
+      }
+    }
+    return "YES";
+  }
 }
 
-const d1 = 10;
-const d2 = 29;
-const d3 = 2;
+const d1 = 107;
+const d2 = 11;
+const d3 = 1;
 
 console.log(primeNumber(d1));
 console.log(primeNumber(d2));
