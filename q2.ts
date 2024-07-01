@@ -1,10 +1,10 @@
-function arrayStringify(c:any):string | null {
-  if(c === null){
+function arrayStringify(a:any):string | null {
+  if(a === null){
     return null;
   }else{
     let result:string = "";
-  for (let i = 0; i < c.length; i++ ){
-    result += c[i].tostring();
+  for (let i = 0; i < a.length; i++ ){
+    result += a[i].tostring();
   }
   return result;
 }

@@ -1,11 +1,11 @@
-function arrayStringify(c) {
-    if (c === null) {
+function arrayStringify(a) {
+    if (a === null) {
         return null;
     }
     else {
         var result = "";
-        for (var i = 0; i < c.length; i++) {
-            result += c[i].tostring();
+        for (var i = 0; i < a.length; i++) {
+            result += a[i].tostring();
         }
         return result;
     }
